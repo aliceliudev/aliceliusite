@@ -222,11 +222,20 @@ h1 {
 }
 
 .section-title-01 h3 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     color: #222;
     margin: 10px 0 0;
     text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-title-01 h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #09c3b3;
+    margin: 10px 0 0;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
 }
 
