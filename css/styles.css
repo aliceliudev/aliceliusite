@@ -1366,6 +1366,25 @@ div#particles-box {
     margin: 15px 0;
     border-radius: 5px;
     box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
+    min-height: 340px;
+}
+
+@media screen and (max-width:1200px) {
+    .feature-box-02 {
+        min-height: 390px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .feature-box-02 {
+        min-height: 370px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .feature-box-02 {
+        min-height: auto;
+    }
 }
 
 .feature-box-02 .icon {
@@ -1520,6 +1539,19 @@ div#particles-box {
     position: relative;
     margin: 0 0 40px;
     z-index: 1;
+    min-height: 340px;
+}
+
+@media screen and (max-width:992px) {
+    .resume-box {
+        min-height: 280px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .resume-box {
+        min-height: auto;
+    }
 }
 
 .resume-box:last-child {
@@ -1789,6 +1821,7 @@ div#particles-box {
     background: #fff;
     margin: 7px 10px;
     border-radius: 5px;
+    min-height: 370px;
 }
 
 .portfolio-col .hover {
@@ -1803,6 +1836,17 @@ div#particles-box {
 
 .portfolio-col .portfolio-img {
     position: relative;
+    height: 250px;
+}
+
+@media screen and (max-width:768px) {
+    .portfolio-col {
+        min-height: auto;
+    }
+    .portfolio-col .portfolio-img {
+        position: relative;
+        height: auto;
+    }
 }
 
 .portfolio-col .hover a {
@@ -2101,6 +2145,7 @@ div#particles-box {
 .blog-item .blog-content h4 {
     font-size: 18px;
     margin: 0 0 15px;
+    height: 50px;
 }
 
 .blog-item .blog-content h4 a {
@@ -2119,6 +2164,9 @@ div#particles-box {
     letter-spacing: 0.88px;
     line-height: 26px;
     margin: 0 0 20px;
+    height: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .blog-item .blog-content a.more {
