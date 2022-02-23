@@ -472,6 +472,12 @@ h1 {
     display: block;
 }
 
+@media screen and (max-width:768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
 .header-style .social-icons {
     position: fixed;
     bottom: 20px;
@@ -2427,4 +2433,8 @@ div#particles-box {
 
 .bg-fixed {
     background-attachment: fixed;
+}
+
+.entry-content h3 {
+    text-align: center;
 }
