@@ -1346,7 +1346,8 @@ div#particles-box {
     background: #292929;
 }
 
-.feature-box h5 {
+.feature-box h5,
+h3 {
     color: #292929;
     font-size: 15px;
     font-weight: 600;
@@ -1706,7 +1707,8 @@ div#particles-box {
     margin-top: 0;
 }
 
-.progress-lt h6 {
+.progress-lt h6,
+.progress-lt p {
     display: inline-block;
     width: 47%;
     margin-right: 1.5%;
